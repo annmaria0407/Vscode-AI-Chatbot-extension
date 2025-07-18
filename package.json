@@ -1,0 +1,31 @@
+{
+  "name": "ai-chat-assistant",
+  "displayName": "AI Chat Assistant",
+  "description": "VS Code extension for AI-powered chat using Ollama",
+  "version": "1.0.0",
+  "publisher": "annmaria",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "activationEvents": [
+    "onCommand:ai-chat-assistant.openChat"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ai-chat-assistant.openChat",
+        "title": "Open AI Chat Assistant"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/vscode": "^1.102.0",
+    "typescript": "^5.3.3",
+    "vscode": "^1.1.37"
+  }
+}
