@@ -78,7 +78,7 @@ function runOllama(model, prompt) {
             // Save the full entry to history
             const entry = { model, prompt, response: message };
             saveToHistory(entry);
-            resolve(`[ ${message}`);
+            resolve(message);
         });
     });
 }

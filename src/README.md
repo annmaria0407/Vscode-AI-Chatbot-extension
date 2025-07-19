@@ -54,6 +54,10 @@ echo "your prompt" | ollama run llama3
 
 ---
 
+ 4. run this command:-
+   
+     npm run compile
+
 ## 🧪 Running the Extension in VS Code
 
 1. Open the project folder in **VS Code**  
