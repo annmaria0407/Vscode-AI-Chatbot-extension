@@ -54,6 +54,13 @@ echo "your prompt" | ollama run llama3
 
 ---
 
+4. To create a production-ready build of your Next. js application.
+
+```bash
+echo "your prompt" | npm run compile
+```
+
+
 ## 🧪 Running the Extension in VS Code
 
 1. Open the project folder in **VS Code**  
