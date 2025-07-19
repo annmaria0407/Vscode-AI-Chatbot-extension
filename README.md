@@ -57,7 +57,7 @@ echo "your prompt" | ollama run llama3
 4. To create a production-ready build of your Next. js application.
 
 ```bash
-echo "your prompt" | npm run compile
+npm run compile
 ```
 
 
