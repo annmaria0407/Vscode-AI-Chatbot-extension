@@ -52,7 +52,7 @@ export function runOllama(model: string, prompt: string): Promise<string> {
       const entry = { model, prompt, response: message };
       saveToHistory(entry);
 
-      resolve(`[ ${message}`);
+      resolve(message);
     });
   });
 }
